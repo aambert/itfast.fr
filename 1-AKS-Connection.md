@@ -7,7 +7,11 @@
     
 *Etape 2 - Connexion sur le cluster Kubernetes via la ligne de commande ou ressource group correspond au nom du ressource group utilisé pour K8S et le nom du cluster AKS ici K8S*
 
-    az aks get-credentials --resource-group azure-k8s --name k8s
+    az login
+![enter image description here](https://github.com/aambert/itfast.fr/blob/master/img/AzLogin.png?raw=true)
+   
+
+     az aks get-credentials --resource-group azure-k8s --name k8s
 
 *Etape 3 - Montage d'un tunnel pour rapporter le port 8001 en local et accès en http à la console AKS*
 
@@ -20,3 +24,6 @@
 Ensuite vous aurez accès à l'interface Web d'AKS
 
 ![enter image description here](https://raw.githubusercontent.com/aambert/itfast.fr/master/img/K8S-Dashboard.png)
+
+
+Connexion en ligne de commande :
