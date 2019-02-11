@@ -31,3 +31,24 @@ Ensuite vous aurez accès à l'interface Web d'AKS
 
 
 Connexion en ligne de commande :
+
+  *Etape 1- Installation du client en ligne de commande*
+  
+    az aks install-cli
+    
+*Etape 2 - Dans un autre Terminal, il faut créer une connexion sur le cluster Kubernetes via la ligne de commande ou ressource group correspond au nom du ressource group utilisé pour K8S et le nom du cluster AKS ici K8S*
+
+    az login
+    
+
+> Saisir vos identifiants Azure dans la page web qui va s'ouvrir
+
+![enter image description here](https://github.com/aambert/itfast.fr/blob/master/img/AzLogin.png?raw=true)
+   
+
+     az aks get-credentials --resource-group azure-k8s --name k8s
+
+Ensuite nous pouvons faire 
+
+    kubectl get pods --all-namespaces
+![enter image description here](https://github.com/aambert/itfast.fr/blob/master/img/kubectlgetpods.png?raw=true)
