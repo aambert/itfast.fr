@@ -8,6 +8,10 @@
 *Etape 2 - Connexion sur le cluster Kubernetes via la ligne de commande ou ressource group correspond au nom du ressource group utilisé pour K8S et le nom du cluster AKS ici K8S*
 
     az login
+    
+
+> Saisir vos identifiants Azure dans la page web qui va s'ouvrir
+
 ![enter image description here](https://github.com/aambert/itfast.fr/blob/master/img/AzLogin.png?raw=true)
    
 
