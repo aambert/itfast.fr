@@ -51,4 +51,4 @@ Connexion en ligne de commande :
 Ensuite nous pouvons faire 
 
     kubectl get pods --all-namespaces
-![enter image description here](https://github.com/aambert/itfast.fr/blob/master/img/kubectlgetpods.png?raw=true)
+![enter image description here](https://github.com/aambert/itfast.fr/blob/master/img/kubectlgetpodsv2.png?raw=true)
